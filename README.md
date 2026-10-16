@@ -1,11 +1,15 @@
 # MY-PROFILE-hackclub-
 I am so grateful you took the time to read this
 
-What i made 
+What I made 
 
-i created a web with random stuff about me as a person
+I created a web with random stuff about me as a person
 with cool animations
 and with my favorite color
+
+
+If by any chance its it running online u can run it locally 
+
 
 WHAT I LEARNED
 
@@ -13,7 +17,7 @@ WHAT I LEARNED
 - hw to code in html
 - cool tricks and styles
 - how to be consistent XD
-- a bit of js but I crushed out mid way so i removed it :)
+- a bit of is but I crushed out mid way so i removed it :)
 
 
 
