@@ -1,0 +1,348 @@
+.howbutton {
+
+    padding : 10px 60px;
+    background-color:rgb(30, 144, 255, 0.5);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family:monospace;
+    display: block;
+    margin: 40px auto;
+    width: 250px;
+    animation: intro-in 650ms cubic-bezier(.2,.8,.2,1) both;
+    
+
+}
+.howbutton:hover{
+    padding: 15px 25px;
+    background-color:rgba(23, 137, 252, 0.623); 
+    border-color: rgb(124, 189, 255);
+    font-size: 15px;
+    font-family: monospace;
+    transition:ease-in-out;
+}
+
+.pic {
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 2% auto;
+    
+    transform: rotate(-4deg);
+    
+    transition: transform 220ms ease, box-shadow 220ms ease;
+   
+    
+}
+
+.pic:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0,0,0,.14);
+
+}
+
+
+h1 {
+
+    font-family:monospace;
+    font-size:xx-large;
+    color: #11204D;
+    font-weight:1000px;
+    font-size: 350%;
+    display: block;
+    margin: 40px auto;
+    width: 500px;
+    animation: intro-in 650ms cubic-bezier(.2,.8,.2,1) both;
+    
+
+}
+
+body { 
+
+    background: linear-gradient(to bottom, #e0f2fe, #7dd3fc);
+
+}
+
+p {
+   font-family: 'Times New Roman', Times, serif;
+   color: beige;
+   font-size: 100000px;
+   display: block;
+    margin: 0 auto;
+    width: 300px;
+    animation: intro-in 650ms cubic-bezier(.2,.8,.2,1) both;
+}
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 40px auto;
+    width: 300px;
+    
+}
+
+.but1 {
+
+    padding : 10px 20px;
+    background-color:rgba(5, 46, 87, 0.582);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+   
+}
+
+
+.fin {
+    font-family: monospace;
+    color: rgb(249, 251, 255);
+    position: bottom sticky;
+}
+
+.white {
+
+    background-color: white;
+    width: 90%;
+    max-width: 654px;
+    padding: 90px 80px;
+    border-radius: 60px;
+    text-align: center;
+    box-shadow: 0px 20px 50px rgba(17, 32, 77, 0.15);
+    margin: 3% auto;
+   
+   transition: transform 250ms ease, box-shadow 250ms ease;
+
+
+}
+
+
+.white:hover {
+  transform: perspective(900px) rotateX(1deg) rotateY(-2deg)
+             translateY(-2px);
+  box-shadow: 0 18px 35px #0002;
+}
+
+
+.fin:hover{
+
+    color: lightblue;
+
+}
+
+.but1:hover{
+
+    padding : 15px 25px;
+    background-color:rgb(5, 46, 87);
+
+    
+}
+
+h2{
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 60px;
+    margin: 40px auto;
+    border-color: #11204D;
+    background-color: #11204da4;
+    border-radius: 20px;
+    
+    
+}
+
+p{
+    color: #11204D;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+
+
+.sticker{
+
+    
+    
+    scale: 70%;
+    transition: transform 0.3s ease;
+}
+
+.sticker:hover{
+    transform: rotate(5deg);
+}
+
+h2:hover{
+    transform: rotate(6deg) scale(1.05);
+}
+
+.blender{
+
+    border-radius: 20px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+
+}
+
+
+.nbut2{
+
+    position: relative;
+    bottom: 0%;
+    background-color: #11204d7a;
+    border-radius: 20px;
+    font-family: monospace;
+    left: 77%;
+    padding: 20px 15px;
+    animation: intro-in 650ms cubic-bezier(.2,.8,.2,1) both;
+
+
+}
+
+.stickers{
+    position: absolute;
+    top: 150px;
+    transition: transform 0.3s ease;
+}
+
+.stickers:hover{
+    transform: rotate(5deg);
+}
+
+p:hover{
+    transform: scale(1.20);
+}
+
+.stickert{
+    position: absolute;
+    top: -20px;
+    scale: 70%;
+    left: -50px;
+    
+     transition: transform 0.3s ease;
+}
+
+.stickert:hover{
+
+    transform: rotate(-5deg);
+
+}
+
+li{
+    margin-right: 20px auto;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+.blender:hover{
+
+    transform: scale(2.5);
+}
+
+.sk{
+    
+    position:absolute;
+    bottom: -100%;
+    right: 63%;
+    border-radius: 50%;
+    
+
+    margin: 2% auto;
+    scale:20px;
+    animation: lol 3.5s ease-in-out infinite;
+    
+}
+
+
+@keyframes lol {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+
+.sks{
+    
+    position:absolute;
+    bottom: 30%;
+    right: 68%;
+    border-radius: 50%;
+    
+
+    margin: 2% auto;
+    scale:20px;
+    animation: lol 3.5s ease-in-out infinite;
+    
+    
+}
+
+.sksr{
+    
+    position:absolute;
+    bottom: -30%;
+    left: 65%;
+    border-radius: 50%;
+    
+
+    margin: 2% auto;
+    scale:20px;
+    animation: lol 3.5s ease-in-out infinite;
+   
+    
+}
+
+
+ 
+
+@keyframes intro-in {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+
+/* i got help for this :)*/
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+@media (max-width:768px){
+    .white{width:95%;padding:30px 20px;}
+    h1{width:auto;font-size:250%;text-align:center;}
+    h2{width:auto;padding:10px 20px;text-align:center;}
+    p{width:90%;text-align:center;}
+    .howbutton,.but1,.nbut2{display:block;margin:20px auto;left:0;position:static;}
+    .pic{width:180px;height:180px;}
+    .stickers,.stickert,.sk,.sks,.sksr{display:none;}
+    .blender{width:100%;max-width:300px;margin:20px auto;display:block;}
+}
+
+@media (max-width:480px){
+    h1{font-size:200%;}
+    .pic{width:150px;height:150px;}
+    .howbutton{width:90%;}
+}
+
+
+/*help ends here*/
+
+
+.we{
+    border-radius: 20px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+
+}
+
+
+
+
